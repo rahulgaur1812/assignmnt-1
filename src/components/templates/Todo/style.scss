@@ -1,0 +1,27 @@
+.todo-units {
+    border: 1px solid #3c6efd;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: -5px;
+    .input-field{
+        padding: 5px 10px;
+        border: 1px solid #3c6efd;
+    }
+}
+.title {
+    .btn-primary {
+        border-radius: unset;
+    }
+}
+.to-do-list-container {
+    border: 1px solid #3c6efd; 
+    margin : 20px 0 100px;
+    padding:10px 10px;
+    max-height: 200px;
+    overflow: auto;
+}
+.show-todo {
+    margin-bottom: 10px;
+    border: 1px solid #3c6efd; 
+     padding:5px 10px;
+}

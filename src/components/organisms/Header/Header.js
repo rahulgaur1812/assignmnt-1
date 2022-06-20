@@ -17,6 +17,7 @@ const Header = () => {
         <NavDropdown.Item><Link to ='/api'>API</Link></NavDropdown.Item>
         <NavDropdown.Item><Link to ='/modal'>Modal</Link></NavDropdown.Item>
         <NavDropdown.Item><Link to ='/weather'>Weather app</Link></NavDropdown.Item>
+        <NavDropdown.Item><Link to ='/todo'>Todo app</Link></NavDropdown.Item>
       </NavDropdown>
     </Nav>
     <Nav>

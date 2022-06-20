@@ -7,6 +7,7 @@ import Counter from "./components/templates/Counter";
 import Restapi from "./components/templates/Restapi";
 import ModalComponent from "./components/templates/Modal";
 import Weather from "./components/templates/Weather";
+import Todo from "./components/templates/Todo";
 
 const Router = () =>{
     return(
@@ -18,6 +19,7 @@ const Router = () =>{
                 <Route path="/api" element={<Restapi/>}/>
                 <Route path="/modal" element={<ModalComponent/>}/>
                 <Route path="/weather" element={<Weather/>}/>
+                <Route path="/todo" element={<Todo/>}/>
             </Routes>
             <Footer/>
         </React.Fragment>

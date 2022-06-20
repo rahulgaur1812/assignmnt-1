@@ -16,7 +16,7 @@ const Header = () => {
       <NavDropdown title="Other Pages" id="collasible-nav-dropdown">
         <NavDropdown.Item><Link to ='/api'>API</Link></NavDropdown.Item>
         <NavDropdown.Item><Link to ='/modal'>Modal</Link></NavDropdown.Item>
-        
+        <NavDropdown.Item><Link to ='/weather'>Weather app</Link></NavDropdown.Item>
       </NavDropdown>
     </Nav>
     <Nav>

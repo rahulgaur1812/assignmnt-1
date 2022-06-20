@@ -6,6 +6,7 @@ import Home from "./components/templates/Home";
 import Counter from "./components/templates/Counter";
 import Restapi from "./components/templates/Restapi";
 import ModalComponent from "./components/templates/Modal";
+import Weather from "./components/templates/Weather";
 
 const Router = () =>{
     return(
@@ -16,6 +17,7 @@ const Router = () =>{
                 <Route path="/counter" element={<Counter/>}/>
                 <Route path="/api" element={<Restapi/>}/>
                 <Route path="/modal" element={<ModalComponent/>}/>
+                <Route path="/weather" element={<Weather/>}/>
             </Routes>
             <Footer/>
         </React.Fragment>
